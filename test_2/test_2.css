@@ -1,0 +1,71 @@
+.title1{
+	margin-top: 20px;
+}
+.title1 .line1{
+	width: 20%;
+	height: 2.5px;
+}
+.title1 .line2{
+	margin-top: 0.5px;
+	width: 80%;
+	height: 1.5px;
+	margin-bottom: 20px;
+}
+.Business{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.Business .contenTR li{
+	color: black;
+}
+.Business .add{
+	padding-top: 10px;
+}
+.Business ul.contenTR li{
+	list-style: none;
+}
+.title2{
+	margin-top: 20px;
+}
+.title2 .line1{
+	width: 36%;
+	height: 2.5px;
+}
+.title2 .line2{
+	margin-top: 0.5px;
+	width: 60%;
+	height: 1.5px;
+	margin-bottom: 20px;
+}
+.Special .ig{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin-bottom: 10px;
+	overflow: hidden;
+	transition: all;
+
+}
+.Special .ig img{
+	width: 100%;
+	height: 100%;
+}
+.Special .ig:hover img{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+.Special .Deal{
+	width: 50%;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+@media screen and (max-width: 570px){
+	.Business .none{
+		display: none;
+	}
+	.Business .contenTR{
+		margin-top: 20px;
+	}
+}
