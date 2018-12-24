@@ -1,0 +1,123 @@
+.container .diff div[class ^="col"]{
+	height: 60px;	
+}
+.container .diff{
+	background: #384452;
+}
+.container .diff a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	text-decoration: none;
+	position: relative;
+}
+.container .diff a:hover{
+	background: green;
+}
+.container .diff a i{
+	position: absolute;
+	left: 20px;
+	top: 30%;
+}
+.container .mtop .bx i{
+	color: white;
+	line-height: 30px;
+}
+.container .mtop .bx{
+	position: absolute;
+	bottom: 37%;
+	left: 35%;
+}
+.container .mtop .call{
+	padding-top: 15px !important;
+}
+.container .mtop,
+.container .img{
+	position: relative;
+}
+.container .next{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	right: 10px;
+	bottom: 80px;
+}
+.container .pre{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+}
+.container .pre i,
+.container .next i{
+	line-height: 50px;
+	padding-left: 40%;
+	font-size: 25px;
+}
+.container .form a,
+.container .form label,
+.container .diff a,
+.container .img .pre,
+.container .img .next,
+.container .masthead nav ul li a.nav-link,
+.container .mtop .reg,
+.container .mtop .login,
+.container .mtop img{
+	transition: all 1s ease-in-out;
+}
+.container .mtop .reg:hover{
+	transform: translate(-5px);
+	color: red;
+}
+.container .diff a:hover{
+	transform: rotate(20deg);
+	box-shadow: 4px 4px 4px blue;
+}
+.container .form a:hover{
+	transform: scale(1.2);
+}
+.container .form label:hover{
+	transform: translate(10px,-15px);
+	text-shadow: 2px 2px 3px red;
+}
+.container .img .pre:hover,
+.container .img .next:hover,
+.container .mtop .login:hover{
+	transform: scale(1.2);
+	color: red;
+}
+.container .mtop img:hover{
+	transform: translate(20px);
+}
+.container .masthead nav ul li a.nav-link:hover{
+	transform: scale(1.5);
+	color: blue;
+}
+@media screen and (max-width: 992px){
+	.container .mtop .bx{
+		left: 67%;
+		bottom: 63%;
+	}
+	.container .mtop img,
+	.container .mtop .reg,
+	.container .mtop .login{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 576px){
+	.container .mtop .bx{
+		left: 10px;
+		bottom: 39%;
+	}
+	.container .mtop img,
+	.container .mtop .reg,
+	.container .mtop .login{
+		width: 100%;
+	}
+}
